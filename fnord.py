@@ -32,7 +32,20 @@ def flatten(tokens):
         return str(tokens)
 
 
+def indent(string, levels=1):
+    lines = [line.strip() for line in string.split("\n")]
+    new_lines = []
+    for line in lines:
+        if line == "}":
+            levels -= 1
+        tabs = "\t" * levels
+        new_lines.append(f"{tabs}{line}")
+        if line == "{":
+            levels += 1
+    return "\n".join(new_lines)
+
+
 if __name__ == "__main__":
     with open("hail_eris.bf", "r") as file:
         source = "".join([char for char in file.read() if char in valid_chars])
-    render(flatten(parse(source).unroll()))
+    render(indent(flatten(parse(source).unroll())))

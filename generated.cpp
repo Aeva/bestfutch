@@ -52,161 +52,161 @@ void ReadIn()
 
 int main()
 {
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-while (Cursor != 0)
-{
-MoveRight();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-MoveLeft();
-Decrement();
-}
-MoveRight();
-WriteOut();
-MoveRight();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-while (Cursor != 0)
-{
-MoveRight();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-MoveLeft();
-Decrement();
-}
-MoveRight();
-Increment();
-WriteOut();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-WriteOut();
-WriteOut();
-Increment();
-Increment();
-Increment();
-WriteOut();
-MoveRight();
-Increment();
-Increment();
-Increment();
-Increment();
-while (Cursor != 0)
-{
-MoveRight();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-MoveLeft();
-Decrement();
-}
-MoveRight();
-WriteOut();
-MoveLeft();
-Increment();
-Increment();
-Increment();
-while (Cursor != 0)
-{
-MoveRight();
-Decrement();
-Decrement();
-Decrement();
-Decrement();
-MoveLeft();
-Decrement();
-}
-MoveRight();
-WriteOut();
-MoveLeft();
-MoveLeft();
-MoveLeft();
-MoveLeft();
-MoveLeft();
-Increment();
-Increment();
-Increment();
-while (Cursor != 0)
-{
-MoveRight();
-Increment();
-Increment();
-Increment();
-Increment();
-Increment();
-MoveLeft();
-Decrement();
-}
-MoveRight();
-WriteOut();
-MoveRight();
-MoveRight();
-WriteOut();
-Increment();
-Increment();
-Increment();
-WriteOut();
-Decrement();
-Decrement();
-Decrement();
-Decrement();
-Decrement();
-Decrement();
-WriteOut();
-Decrement();
-Decrement();
-Decrement();
-Decrement();
-Decrement();
-Decrement();
-Decrement();
-Decrement();
-WriteOut();
-MoveRight();
-MoveRight();
-Increment();
-WriteOut();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	while (Cursor != 0)
+	{
+		MoveRight();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		MoveLeft();
+		Decrement();
+	}
+	MoveRight();
+	WriteOut();
+	MoveRight();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	while (Cursor != 0)
+	{
+		MoveRight();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		MoveLeft();
+		Decrement();
+	}
+	MoveRight();
+	Increment();
+	WriteOut();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	WriteOut();
+	WriteOut();
+	Increment();
+	Increment();
+	Increment();
+	WriteOut();
+	MoveRight();
+	Increment();
+	Increment();
+	Increment();
+	Increment();
+	while (Cursor != 0)
+	{
+		MoveRight();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		MoveLeft();
+		Decrement();
+	}
+	MoveRight();
+	WriteOut();
+	MoveLeft();
+	Increment();
+	Increment();
+	Increment();
+	while (Cursor != 0)
+	{
+		MoveRight();
+		Decrement();
+		Decrement();
+		Decrement();
+		Decrement();
+		MoveLeft();
+		Decrement();
+	}
+	MoveRight();
+	WriteOut();
+	MoveLeft();
+	MoveLeft();
+	MoveLeft();
+	MoveLeft();
+	MoveLeft();
+	Increment();
+	Increment();
+	Increment();
+	while (Cursor != 0)
+	{
+		MoveRight();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		Increment();
+		MoveLeft();
+		Decrement();
+	}
+	MoveRight();
+	WriteOut();
+	MoveRight();
+	MoveRight();
+	WriteOut();
+	Increment();
+	Increment();
+	Increment();
+	WriteOut();
+	Decrement();
+	Decrement();
+	Decrement();
+	Decrement();
+	Decrement();
+	Decrement();
+	WriteOut();
+	Decrement();
+	Decrement();
+	Decrement();
+	Decrement();
+	Decrement();
+	Decrement();
+	Decrement();
+	Decrement();
+	WriteOut();
+	MoveRight();
+	MoveRight();
+	Increment();
+	WriteOut();
 }
